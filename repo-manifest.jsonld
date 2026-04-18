@@ -10,7 +10,7 @@
       "git:hexsha": "d50f981f3ffee8ffd668ca712a9e4d904ed1c5a9",
       "repolex:parseStatus": "parsed",
       "git:tagName": "v2.10.2",
-      "repolex:parsedAt": "2026-04-18T23:45:02.711595+00:00"
+      "repolex:parsedAt": "2026-04-18T23:53:02.507344+00:00"
     },
     {
       "@id": "https://repolex.ai/r/webpack-contrib/mini-css-extract-plugin/commit/31742323d4a6004ee4a2d2be92f642de01f66cbc",
