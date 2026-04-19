@@ -1,0 +1,29 @@
+[2026-04-19T00:38:32Z] === ENRICH ITERATION 1 START | repo=webpack-contrib/mini-css-extract-plugin sha=d50f981f ===
+[2026-04-19T00:38:32Z] [iter=1] PHASE START: enrich repo=webpack-contrib/mini-css-extract-plugin sha=d50f981f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d50f981f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d50f981f3ffee8ffd668ca712a9e4d904ed1c5a9.nq.gz
+[2026-04-19T00:38:50Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=81 MB
+[2026-04-19T00:38:54Z] [iter=1] AST store loaded triples=562590 load_secs=4 mem_mb=893 MB
+[2026-04-19T00:38:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=893 MB
+[2026-04-19T00:38:55Z] [iter=1] LSP targets found call_sites=3958 imports=444 extends=2 implements=0 secs=0
+[2026-04-19T00:38:55Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=893 MB
+[2026-04-19T00:38:58Z] [iter=1] Position index built positions=41268 nodes_with_types=46544 secs=3 mem_mb=893 MB
+[2026-04-19T00:38:58Z] [iter=1] Step 3: Starting LSP resolution mem_mb=893 MB already_completed_types=[] already_completed_files=0
+[2026-04-19T00:38:58Z] [iter=1] Resolving target type target_type=call_site count=3958
+[2026-04-19T00:39:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=1 resolved=20 errors=230 current=test/cases/hmr-locals/expected/main.js
+[2026-04-19T00:40:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.1 files_done=2 resolved=72 errors=480 current=src/utils.js
+[2026-04-19T00:41:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=11 resolved=96 errors=636 current=test/cases/no-runtime/expected/main.js
+[2026-04-19T00:42:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=15 resolved=159 errors=938 current=test/cases/es-named-and-default-export/expected/main.js
+[2026-04-19T00:42:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=21 resolved=217 errors=1115 current=test/attributes-option.test.js
+[2026-04-19T00:43:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=24 resolved=256 errors=1280 current=src/loader.js
+[2026-04-19T00:44:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=28 resolved=338 errors=1450 current=test/cases/prefetch-preload/expected/main.js
+[2026-04-19T00:44:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=30 resolved=383 errors=1623 current=test/cases/runtime/expected/runtime~main.js
+[2026-04-19T00:45:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=34 resolved=431 errors=1783 current=test/validate-plugin-options.test.js
+[2026-04-19T00:45:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.3 files_done=47 resolved=461 errors=1907 current=test/validate-loader-options.test.js
+[2026-04-19T00:46:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.8 files_done=103 resolved=522 errors=2046 current=test/cases/prefetch-preload/b.js
+[2026-04-19T00:46:36Z] [iter=1] Target type resolved target_type=call_site resolved=546 errors=2109 secs=459 mem_mb=893 MB
+[2026-04-19T00:46:36Z] [iter=1] Resolving target type target_type=import_statement count=444
+[2026-04-19T00:46:45Z] [iter=1] Target type resolved target_type=import_statement resolved=398 errors=0 secs=9 mem_mb=893 MB
+[2026-04-19T00:46:45Z] [iter=1] Resolving target type target_type=extends_clause count=2
+[2026-04-19T00:46:47Z] [iter=1] Target type resolved target_type=extends_clause resolved=2 errors=0 secs=2 mem_mb=893 MB
+[2026-04-19T00:46:54Z] [iter=1] Step 5: Writing final enrichment file triples=45466
+[2026-04-19T00:46:55Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d50f981f3ffee8ffd668ca712a9e4d904ed1c5a9.nq.gz size_kb=968
+[2026-04-19T00:46:55Z] [iter=1] PHASE END: enrich elapsed_s=503 elapsed_min=8.4 total_triples=45466
